@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C787DF2619CE212200A4180F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C787DF2519CE212200A4180F /* Foundation.framework */; };
+		C787DF2819CE212200A4180F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C787DF2719CE212200A4180F /* CoreGraphics.framework */; };
+		C787DF2A19CE212200A4180F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C787DF2919CE212200A4180F /* UIKit.framework */; };
+		C787DF3019CE212200A4180F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C787DF2E19CE212200A4180F /* InfoPlist.strings */; };
+		C787DF3219CE212200A4180F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C787DF3119CE212200A4180F /* main.m */; };
+		C787DF3619CE212200A4180F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C787DF3519CE212200A4180F /* AppDelegate.m */; };
+		C787DF3919CE212200A4180F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C787DF3719CE212200A4180F /* Main.storyboard */; };
+		C787DF4119CE212200A4180F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C787DF4019CE212200A4180F /* Images.xcassets */; };
+		C787DF4819CE212200A4180F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C787DF4719CE212200A4180F /* XCTest.framework */; };
+		C787DF4919CE212200A4180F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C787DF2519CE212200A4180F /* Foundation.framework */; };
+		C787DF4A19CE212200A4180F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C787DF2919CE212200A4180F /* UIKit.framework */; };
+		C787DF5219CE212200A4180F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C787DF5019CE212200A4180F /* InfoPlist.strings */; };
+		C787DF5419CE212200A4180F /* SimpleQuestionnaireTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C787DF5319CE212200A4180F /* SimpleQuestionnaireTests.m */; };
+		C787DF5F19CE241100A4180F /* QuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C787DF5E19CE241100A4180F /* QuestionsViewController.m */; };
+		C787DF6219CE242B00A4180F /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C787DF6119CE242B00A4180F /* Model.m */; };
+		C787DF6519CE265200A4180F /* HelpfulLinksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C787DF6419CE265200A4180F /* HelpfulLinksViewController.m */; };
+		C787DF6819CE266500A4180F /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C787DF6719CE266500A4180F /* WebViewController.m */; };
+		C787DF6B19CE267200A4180F /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C787DF6A19CE267200A4180F /* ResultsViewController.m */; };
+		C787DF6E19CE267E00A4180F /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C787DF6D19CE267E00A4180F /* WelcomeViewController.m */; };
+		C787DF7019CE26A100A4180F /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = C787DF6F19CE26A100A4180F /* Data.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C787DF4B19CE212200A4180F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C787DF1A19CE212200A4180F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C787DF2119CE212200A4180F;
+			remoteInfo = SimpleQuestionnaire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C787DF2219CE212200A4180F /* SimpleQuestionnaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleQuestionnaire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C787DF2519CE212200A4180F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C787DF2719CE212200A4180F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C787DF2919CE212200A4180F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C787DF2D19CE212200A4180F /* SimpleQuestionnaire-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleQuestionnaire-Info.plist"; sourceTree = "<group>"; };
+		C787DF2F19CE212200A4180F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C787DF3119CE212200A4180F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C787DF3319CE212200A4180F /* SimpleQuestionnaire-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleQuestionnaire-Prefix.pch"; sourceTree = "<group>"; };
+		C787DF3419CE212200A4180F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C787DF3519CE212200A4180F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C787DF3819CE212200A4180F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C787DF4019CE212200A4180F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C787DF4619CE212200A4180F /* SimpleQuestionnaireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleQuestionnaireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C787DF4719CE212200A4180F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C787DF4F19CE212200A4180F /* SimpleQuestionnaireTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleQuestionnaireTests-Info.plist"; sourceTree = "<group>"; };
+		C787DF5119CE212200A4180F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C787DF5319CE212200A4180F /* SimpleQuestionnaireTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleQuestionnaireTests.m; sourceTree = "<group>"; };
+		C787DF5D19CE241100A4180F /* QuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionsViewController.h; sourceTree = "<group>"; };
+		C787DF5E19CE241100A4180F /* QuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionsViewController.m; sourceTree = "<group>"; };
+		C787DF6019CE242B00A4180F /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		C787DF6119CE242B00A4180F /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		C787DF6319CE265200A4180F /* HelpfulLinksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpfulLinksViewController.h; sourceTree = "<group>"; };
+		C787DF6419CE265200A4180F /* HelpfulLinksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpfulLinksViewController.m; sourceTree = "<group>"; };
+		C787DF6619CE266500A4180F /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		C787DF6719CE266500A4180F /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		C787DF6919CE267200A4180F /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		C787DF6A19CE267200A4180F /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		C787DF6C19CE267E00A4180F /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		C787DF6D19CE267E00A4180F /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		C787DF6F19CE26A100A4180F /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C787DF1F19CE212200A4180F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C787DF2819CE212200A4180F /* CoreGraphics.framework in Frameworks */,
+				C787DF2A19CE212200A4180F /* UIKit.framework in Frameworks */,
+				C787DF2619CE212200A4180F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C787DF4319CE212200A4180F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C787DF4819CE212200A4180F /* XCTest.framework in Frameworks */,
+				C787DF4A19CE212200A4180F /* UIKit.framework in Frameworks */,
+				C787DF4919CE212200A4180F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C787DF1919CE212200A4180F = {
+			isa = PBXGroup;
+			children = (
+				C787DF2B19CE212200A4180F /* SimpleQuestionnaire */,
+				C787DF4D19CE212200A4180F /* SimpleQuestionnaireTests */,
+				C787DF2419CE212200A4180F /* Frameworks */,
+				C787DF2319CE212200A4180F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C787DF2319CE212200A4180F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C787DF2219CE212200A4180F /* SimpleQuestionnaire.app */,
+				C787DF4619CE212200A4180F /* SimpleQuestionnaireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C787DF2419CE212200A4180F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C787DF2519CE212200A4180F /* Foundation.framework */,
+				C787DF2719CE212200A4180F /* CoreGraphics.framework */,
+				C787DF2919CE212200A4180F /* UIKit.framework */,
+				C787DF4719CE212200A4180F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C787DF2B19CE212200A4180F /* SimpleQuestionnaire */ = {
+			isa = PBXGroup;
+			children = (
+				C787DF3419CE212200A4180F /* AppDelegate.h */,
+				C787DF3519CE212200A4180F /* AppDelegate.m */,
+				C787DF6C19CE267E00A4180F /* WelcomeViewController.h */,
+				C787DF6D19CE267E00A4180F /* WelcomeViewController.m */,
+				C787DF6319CE265200A4180F /* HelpfulLinksViewController.h */,
+				C787DF6419CE265200A4180F /* HelpfulLinksViewController.m */,
+				C787DF5D19CE241100A4180F /* QuestionsViewController.h */,
+				C787DF5E19CE241100A4180F /* QuestionsViewController.m */,
+				C787DF6919CE267200A4180F /* ResultsViewController.h */,
+				C787DF6A19CE267200A4180F /* ResultsViewController.m */,
+				C787DF6619CE266500A4180F /* WebViewController.h */,
+				C787DF6719CE266500A4180F /* WebViewController.m */,
+				C787DF6019CE242B00A4180F /* Model.h */,
+				C787DF6119CE242B00A4180F /* Model.m */,
+				C787DF3719CE212200A4180F /* Main.storyboard */,
+				C787DF4019CE212200A4180F /* Images.xcassets */,
+				C787DF2C19CE212200A4180F /* Supporting Files */,
+			);
+			path = SimpleQuestionnaire;
+			sourceTree = "<group>";
+		};
+		C787DF2C19CE212200A4180F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C787DF6F19CE26A100A4180F /* Data.plist */,
+				C787DF2D19CE212200A4180F /* SimpleQuestionnaire-Info.plist */,
+				C787DF2E19CE212200A4180F /* InfoPlist.strings */,
+				C787DF3119CE212200A4180F /* main.m */,
+				C787DF3319CE212200A4180F /* SimpleQuestionnaire-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C787DF4D19CE212200A4180F /* SimpleQuestionnaireTests */ = {
+			isa = PBXGroup;
+			children = (
+				C787DF5319CE212200A4180F /* SimpleQuestionnaireTests.m */,
+				C787DF4E19CE212200A4180F /* Supporting Files */,
+			);
+			path = SimpleQuestionnaireTests;
+			sourceTree = "<group>";
+		};
+		C787DF4E19CE212200A4180F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C787DF4F19CE212200A4180F /* SimpleQuestionnaireTests-Info.plist */,
+				C787DF5019CE212200A4180F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C787DF2119CE212200A4180F /* SimpleQuestionnaire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C787DF5719CE212200A4180F /* Build configuration list for PBXNativeTarget "SimpleQuestionnaire" */;
+			buildPhases = (
+				C787DF1E19CE212200A4180F /* Sources */,
+				C787DF1F19CE212200A4180F /* Frameworks */,
+				C787DF2019CE212200A4180F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleQuestionnaire;
+			productName = SimpleQuestionnaire;
+			productReference = C787DF2219CE212200A4180F /* SimpleQuestionnaire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C787DF4519CE212200A4180F /* SimpleQuestionnaireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C787DF5A19CE212200A4180F /* Build configuration list for PBXNativeTarget "SimpleQuestionnaireTests" */;
+			buildPhases = (
+				C787DF4219CE212200A4180F /* Sources */,
+				C787DF4319CE212200A4180F /* Frameworks */,
+				C787DF4419CE212200A4180F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C787DF4C19CE212200A4180F /* PBXTargetDependency */,
+			);
+			name = SimpleQuestionnaireTests;
+			productName = SimpleQuestionnaireTests;
+			productReference = C787DF4619CE212200A4180F /* SimpleQuestionnaireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C787DF1A19CE212200A4180F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Vasileios Loumanis";
+				TargetAttributes = {
+					C787DF4519CE212200A4180F = {
+						TestTargetID = C787DF2119CE212200A4180F;
+					};
+				};
+			};
+			buildConfigurationList = C787DF1D19CE212200A4180F /* Build configuration list for PBXProject "SimpleQuestionnaire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C787DF1919CE212200A4180F;
+			productRefGroup = C787DF2319CE212200A4180F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C787DF2119CE212200A4180F /* SimpleQuestionnaire */,
+				C787DF4519CE212200A4180F /* SimpleQuestionnaireTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C787DF2019CE212200A4180F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C787DF4119CE212200A4180F /* Images.xcassets in Resources */,
+				C787DF3019CE212200A4180F /* InfoPlist.strings in Resources */,
+				C787DF3919CE212200A4180F /* Main.storyboard in Resources */,
+				C787DF7019CE26A100A4180F /* Data.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C787DF4419CE212200A4180F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C787DF5219CE212200A4180F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C787DF1E19CE212200A4180F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C787DF5F19CE241100A4180F /* QuestionsViewController.m in Sources */,
+				C787DF6819CE266500A4180F /* WebViewController.m in Sources */,
+				C787DF6E19CE267E00A4180F /* WelcomeViewController.m in Sources */,
+				C787DF6519CE265200A4180F /* HelpfulLinksViewController.m in Sources */,
+				C787DF6B19CE267200A4180F /* ResultsViewController.m in Sources */,
+				C787DF3619CE212200A4180F /* AppDelegate.m in Sources */,
+				C787DF6219CE242B00A4180F /* Model.m in Sources */,
+				C787DF3219CE212200A4180F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C787DF4219CE212200A4180F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C787DF5419CE212200A4180F /* SimpleQuestionnaireTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C787DF4C19CE212200A4180F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C787DF2119CE212200A4180F /* SimpleQuestionnaire */;
+			targetProxy = C787DF4B19CE212200A4180F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C787DF2E19CE212200A4180F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C787DF2F19CE212200A4180F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C787DF3719CE212200A4180F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C787DF3819CE212200A4180F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C787DF5019CE212200A4180F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C787DF5119CE212200A4180F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C787DF5519CE212200A4180F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C787DF5619CE212200A4180F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C787DF5819CE212200A4180F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleQuestionnaire/SimpleQuestionnaire-Prefix.pch";
+				INFOPLIST_FILE = "SimpleQuestionnaire/SimpleQuestionnaire-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C787DF5919CE212200A4180F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleQuestionnaire/SimpleQuestionnaire-Prefix.pch";
+				INFOPLIST_FILE = "SimpleQuestionnaire/SimpleQuestionnaire-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C787DF5B19CE212200A4180F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleQuestionnaire.app/SimpleQuestionnaire";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleQuestionnaire/SimpleQuestionnaire-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SimpleQuestionnaireTests/SimpleQuestionnaireTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C787DF5C19CE212200A4180F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleQuestionnaire.app/SimpleQuestionnaire";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleQuestionnaire/SimpleQuestionnaire-Prefix.pch";
+				INFOPLIST_FILE = "SimpleQuestionnaireTests/SimpleQuestionnaireTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C787DF1D19CE212200A4180F /* Build configuration list for PBXProject "SimpleQuestionnaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C787DF5519CE212200A4180F /* Debug */,
+				C787DF5619CE212200A4180F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C787DF5719CE212200A4180F /* Build configuration list for PBXNativeTarget "SimpleQuestionnaire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C787DF5819CE212200A4180F /* Debug */,
+				C787DF5919CE212200A4180F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C787DF5A19CE212200A4180F /* Build configuration list for PBXNativeTarget "SimpleQuestionnaireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C787DF5B19CE212200A4180F /* Debug */,
+				C787DF5C19CE212200A4180F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C787DF1A19CE212200A4180F /* Project object */;
+}

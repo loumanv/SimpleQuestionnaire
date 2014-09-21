@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>questions</key>
+	<array>
+		<string>Question 1</string>
+		<string>Question 2</string>
+		<string>Question 3</string>
+		<string>Question 4</string>
+		<string>Question 5</string>
+		<string>Question 6</string>
+		<string>Question 7</string>
+		<string>Question 8</string>
+		<string>Question 9</string>
+	</array>
+	<key>answers</key>
+	<array>
+		<string>Never</string>
+		<string>Sometimes</string>
+		<string>Several times</string>
+		<string>Always</string>
+	</array>
+	<key>helpfulLinksTable</key>
+	<array>
+		<string>Link 1</string>
+		<string>Link 2</string>
+		<string>Link 3</string>
+		<string>Link 4</string>
+		<string>Link 5</string>
+	</array>
+	<key>helpfulLinksURLs</key>
+	<array>
+		<string>http://www.google.com</string>
+		<string>http://www.bing.com</string>
+		<string>http://search.yahoo.com</string>
+		<string>http://uk.ask.com/</string>
+		<string>http://search.aol.com/</string>
+	</array>
+	<key>scoreText</key>
+	<array>
+		<string>Never</string>
+		<string>A bit</string>
+		<string>Some</string>
+		<string>A lot</string>
+		<string>Always</string>
+	</array>
+	<key>scoreDetailText</key>
+	<array>
+		<string>Your score indicates you never do that</string>
+		<string>Your score indicates you do that a bit</string>
+		<string>Your score indicates you some times do that</string>
+		<string>Your score indicates you do that a lot</string>
+		<string>Your score indicates you do that always</string>
+	</array>
+</dict>
+</plist>
